@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+h1 {
+    text-align: center;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: #288bfc;
+    font-family: 'Merriweather', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: #ff0055;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #92b300;
+}
